@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Cronometro from './CronometroMeu2'
 import Formulario from './formulario'
+import FiltroNumero from './filtroNumero'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +13,11 @@ function App() {
     <Cronometro />
     <h2>FORMULARIO</h2>
     <Formulario/>
+    <h1>FILTRAGEM NUMERO</h1>
+    <FiltroNumero/>
     </>
+    
+
   )
 }
 
